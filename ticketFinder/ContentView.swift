@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ticketFinder
-//
-//  Created by alexCode on 28/05/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {

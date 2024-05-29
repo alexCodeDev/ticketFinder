@@ -11,6 +11,10 @@
 		CEB00F6B2C05E27200ED05CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB00F6A2C05E27200ED05CE /* ContentView.swift */; };
 		CEB00F6D2C05E27300ED05CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB00F6C2C05E27300ED05CE /* Assets.xcassets */; };
 		CEB00F702C05E27300ED05CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB00F6F2C05E27300ED05CE /* Preview Assets.xcassets */; };
+		CEB00F7D2C06024600ED05CE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB00F7C2C06024600ED05CE /* MenuView.swift */; };
+		CEB00F7F2C06025300ED05CE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB00F7E2C06025300ED05CE /* MainView.swift */; };
+		CEB00F812C06025E00ED05CE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB00F802C06025E00ED05CE /* SearchView.swift */; };
+		CEB00F832C06026C00ED05CE /* TicketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB00F822C06026C00ED05CE /* TicketDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CEB00F6A2C05E27200ED05CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEB00F6C2C05E27300ED05CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB00F6F2C05E27300ED05CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEB00F7C2C06024600ED05CE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CEB00F7E2C06025300ED05CE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CEB00F802C06025E00ED05CE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CEB00F822C06026C00ED05CE /* TicketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,11 @@
 		CEB00F672C05E27200ED05CE /* ticketFinder */ = {
 			isa = PBXGroup;
 			children = (
+				CEB00F7A2C05E32B00ED05CE /* Services */,
+				CEB00F792C05E32000ED05CE /* Coordinators */,
+				CEB00F782C05E31800ED05CE /* Views */,
+				CEB00F772C05E31000ED05CE /* ViewModels */,
+				CEB00F762C05E30600ED05CE /* Models */,
 				CEB00F682C05E27200ED05CE /* ticketFinderApp.swift */,
 				CEB00F6A2C05E27200ED05CE /* ContentView.swift */,
 				CEB00F6C2C05E27300ED05CE /* Assets.xcassets */,
@@ -65,6 +78,45 @@
 				CEB00F6F2C05E27300ED05CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEB00F762C05E30600ED05CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEB00F772C05E31000ED05CE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CEB00F782C05E31800ED05CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEB00F7C2C06024600ED05CE /* MenuView.swift */,
+				CEB00F7E2C06025300ED05CE /* MainView.swift */,
+				CEB00F802C06025E00ED05CE /* SearchView.swift */,
+				CEB00F822C06026C00ED05CE /* TicketDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEB00F792C05E32000ED05CE /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		CEB00F7A2C05E32B00ED05CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB00F812C06025E00ED05CE /* SearchView.swift in Sources */,
 				CEB00F6B2C05E27200ED05CE /* ContentView.swift in Sources */,
+				CEB00F7F2C06025300ED05CE /* MainView.swift in Sources */,
+				CEB00F7D2C06024600ED05CE /* MenuView.swift in Sources */,
 				CEB00F692C05E27200ED05CE /* ticketFinderApp.swift in Sources */,
+				CEB00F832C06026C00ED05CE /* TicketDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
